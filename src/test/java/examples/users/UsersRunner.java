@@ -6,7 +6,7 @@ class UsersRunner {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("PlanCode").relativeTo(getClass());
+        return Karate.run("GenerateToken").relativeTo(getClass());
     }    
 
 }
